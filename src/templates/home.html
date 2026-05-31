@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block head_title %}Home Page - {{block.super}}{% endblock head_title %}
+{% block content %}
+    <p>Hello Sdsjcfhjs</p>
+
+    <p>Page Visits: {{page_visits_count}}</p>
+    <p>Total Visits: {{total_visits_count}}</p>
+    <p>Percentage: {{percent|floatformat:2}}%</p>
+{% endblock content%}
